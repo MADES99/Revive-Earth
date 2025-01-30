@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    font-family: "Inter", serif;
+    mix-blend-mode: multiply;
+}
+
+a.active {
+    font-weight: 600;
+    color: #83BC25;
+}
+
+
+
+
