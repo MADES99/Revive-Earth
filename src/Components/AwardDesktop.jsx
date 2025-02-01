@@ -14,7 +14,7 @@ const AwardDesktop = () => {
                 <div className='bg-white flex flex-wrap items-center gap-[34px] py-[17px] px-[33px] '>
                     <img src={royal} alt="Royal Award" />
                     <div className='w-[1px] h-[81px] bg-[#83BC25]'></div>
-                    <p className='text-[#1C290F] text-[20px] w-[342px] font-medium leading-[25px] font-[clash Display] text-wrap'>Engineering Award for Innovation and Sustainability</p>
+                    <p className='text-[#1C290F] text-[20px] w-[342px] font-medium leading-[25px] font-[ClashDisplay-Variable] text-wrap'>Engineering Award for Innovation and Sustainability</p>
                 </div>
             </div>
   )

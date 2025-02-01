@@ -1,4 +1,5 @@
 import React from 'react'
+import './fonts/ClashDisplay-Variable.ttf'
 import Navbar from './Components/Navbar'
 import Landing from './Pages/Landing'
 import { Routes, Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
