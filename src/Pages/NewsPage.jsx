@@ -1,8 +1,18 @@
 import React from 'react'
+import NewsHeader from '../Components/NewsHeader'
+import NewsProduct from '../Components/NewsProduct'
+import Contact from '../Components/Contact'
+import Footer from '../Components/Footer'
+
 
 const NewsPage = () => {
   return (
-    <h1>This is the News Page</h1>
+    <>
+      <NewsHeader />
+      <NewsProduct />
+      <Contact />
+      <Footer />
+    </>
   )
 }
 
