@@ -2,8 +2,8 @@ import React from 'react'
 
 const NewsContent = () => {
   return (
-            <p className=' text-[#050404] text-[14px] font-[inter] text-justify'>
-                        <span className=''>‘Empowering the individual means empowering the nation. And empowerment is best served through rapid economic growth with rapid social change’</span>
+            <p className=' text-[#050404] text-[14px] font-[inter] text-justify leading-[25px]'>
+                        <span className='italic'>‘Empowering the individual means empowering the nation. And empowerment is best served through rapid economic growth with rapid social change’</span>
                         <br />
                         <br />
             – Atal Bihari Vajpayee

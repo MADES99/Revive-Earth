@@ -1,6 +1,7 @@
 import React from 'react'
 import { Links } from '../constants/Index'
 import { CompanyLinks } from '../constants/Index'
+import { NavLink } from 'react-router-dom'
 
 const FooterLinks = () => {
   return (
@@ -10,7 +11,7 @@ const FooterLinks = () => {
                         <ul className='flex flex-col list-none  font-[inter] text-white gap-[35px]'>
                             {
                                 Links.map((item, i) => {
-                                    return  <li>{item.link}</li>
+                                    return   <li>{item.link}</li>
                                 })
                             }
                            
@@ -23,8 +24,8 @@ const FooterLinks = () => {
 
                             {
                                 CompanyLinks.map((item, i) => {
-                                    return <li>{item.company}</li>
-                            
+                                 return   item.id === 1 ? <NavLink to='/team'><li>{item.company}</li></NavLink> : <li>{item.company}</li>
+    
                                 })
                             }
                         </ul>

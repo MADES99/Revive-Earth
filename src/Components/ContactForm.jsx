@@ -12,7 +12,7 @@ const ContactForm = () => {
                             )
                         })
                     }
-                    <textarea name="Message" id="Message"  placeholder="Message" className='border border-[#0F0B0B] placeholder-[#0F0B0B] py-[16px] px-[20px] rounded-[5px]'></textarea>
+                    <textarea name="Message" id="Message"  placeholder="Message" className='border border-[#0F0B0B] placeholder-[#0F0B0B] py-[16px] px-[20px] rounded-[5px]`'></textarea>
                 </form>
 
                 <button className='bg-[#1C290F] flex justify-center items-center py-[12px] text-white font-semibold leading-[26px]'>

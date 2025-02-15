@@ -44,6 +44,13 @@ a.active {
     background-repeat: no-repeat;
 }
 
+.contact-page {
+    background-image: url('./assets/ContactBg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 
 

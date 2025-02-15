@@ -13,6 +13,16 @@ import partner4 from '../assets/partner4.png'
 import Cleaner from '../assets/Cleaner.svg'
 import Cheaper from '../assets/Cheaper.svg'
 import Convenient from '../assets/Convenient.svg'
+import Jocelyn from '../assets/Jocelyn.png'
+import Jordyn from '../assets/Jordyn.png'
+import Dias from '../assets/Dias.png'
+import Levin from '../assets/Levin.png'
+import Lindsey from '../assets/Lindsey.png'
+import Martin from '../assets/Martin.png'
+import Arcand from '../assets/Arcand.png'
+import facebook from '../assets/facebook.svg'
+import instagram from '../assets/instagram.svg'
+import twitter from '../assets/twitter.svg'
 
 
 export const NavItems  = [
@@ -276,5 +286,70 @@ export const VehiclesFeatures = [
     img : Convenient,
     title : 'Convenient',
     text : 'Electric vehicles are easy, more convenient, and safer to drive. They are far more efficient, and the drivetrain is more effective to accommodate low losses, greater performance, and more responsiveness. The future of driving lies with electric vehicles because it makes the implementation of modern technologies such as AI, and machine learning extremely easy on the vehicle.'
+  }
+]
+
+export const BoardMembers = [
+  {
+      img : Jocelyn,
+      name : 'Jocelyn Schleifer',
+      title : 'Founder/CEO',
+  },
+
+  {
+    img : Martin,
+    name : 'Martin Donin',
+    title : 'Senior Program Manager',
+  },
+
+  {
+    img : Jordyn,
+    name : 'Jordyn Septimus',
+    title : 'Senior Associate', 
+  },
+
+  {
+    img : Arcand,
+    name : 'Leo Arcand',
+    title : 'Co-Founder/CTO', 
+  }
+]
+
+export const SoftwareMembers = [
+  {
+    img : Levin,
+    name : 'Marilyn Levin',
+  },
+
+  {
+    img : Lindsey,
+    name : 'Lindsey Dokidis',
+  },
+
+  {
+    img : Dias,
+    name : 'Hanna Dias',
+  },
+
+  {
+    img : Jordyn,
+    name : 'Ryan Gouse'
+  }
+]
+
+export const TeamSocials = [
+  {
+    id : 1,
+    media : facebook
+  },
+
+  {
+    id : 2,
+    media : instagram
+  },
+
+  {
+    id : 3,
+    media : twitter
   }
 ]
