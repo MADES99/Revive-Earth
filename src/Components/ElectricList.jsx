@@ -7,7 +7,7 @@ const ElectricList = () => {
             <div className='flex lg:flex-row flex-col  lg:gap-[92px] gap-[40px]'>
             {
                 ElectricFeatures.map((item, i) => {
-                    return       <div className='flex flex-col gap-[16px] w-[293px] items-start'>
+                    return       <div className='flex flex-col gap-[16px] lg:w-[293px] items-start w-full'>
                                         <div className='flex flex-col gap-[22px]'>
                                         <Lightning />
                                         <h2 className='font-[ClashDisplay-Variable] text-[#050404] text-2xl font-medium leading-[24px]'>{item.title}</h2>
