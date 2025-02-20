@@ -2,7 +2,7 @@ import React from 'react'
 
 const Subscribe = () => {
   return (
-            <div className='flex flex-col gap-[42px]'>
+            <div className='flex flex-[1] flex-col gap-[42px]'>
                 <h1 className='font-[ClashDisplay-Variable] text-white text-[20px] font-medium'>Subscribe to our newsletter</h1>
                 <div className='flex flex-col gap-[20px]'>
                     <div className='flex'>

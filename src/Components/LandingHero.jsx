@@ -1,8 +1,9 @@
 import React from 'react'
+import Group4 from '../assets/Group4.png'
 
 const LandingHero = () => {
   return (
-    <div className='m-0 bg-black lg:pb-[187px] lg:px-[218px] lg:pt-[231px] pb-[77px] pt-[120px] px-[23px]'>
+    <div className='m-0 lg:pb-[187px] lg:px-[218px] lg:pt-[231px] pb-[77px] pt-[120px] px-[23px] landing'>
             <div className='flex flex-col gap-[50px] justify-center items-center '>
                 <div className='text-white flex flex-col gap-[23px] text-center'>
                     <h1 className='font-[ClashDisplay-Variable] text-6xl lg:text-8xl font-medium'>The Future is Here, Revive Earth!</h1>

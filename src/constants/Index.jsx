@@ -23,6 +23,9 @@ import Arcand from '../assets/Arcand.png'
 import facebook from '../assets/facebook.svg'
 import instagram from '../assets/instagram.svg'
 import twitter from '../assets/twitter.svg'
+import Enquiry from "../assets/Enquiry.svg";
+import Glyph from "../assets/Glyph.svg";
+import Car from "../assets/Car.svg";
 
 
 export const NavItems  = [
@@ -51,6 +54,22 @@ export const ConversionKits = [
 ]
 
 export const StoriesKits = [
+    { image : Innov, title : 'Innov8 Boost Employment', text: 'Isreali Embassy, Innov8 Boost Employment,  Bolster Nigeria’s Economic Prosperity Through i-FAIR...' },
+
+    { image : fuel, title : 'EV100 Pledge', text : 'More than 110 companies have signed up to the EV100 pledge, committing to fully zero-emission vehicle fleets by 2030...'},
+
+    { image : global, title : 'Global Market', text : 'Vehicle manufacturers representing more than 30% of the global market now have commitments to phase out fossil-fueled...'},
+
+    { image : fuel, title : 'COP26 Declaration', text : 'The COP26 Declaration on Accelerating the Transition to 100% Zero-Emission Cars and Vans brought together over 35 countries, 6...'},
+
+    { image : Innov, title : 'Innov8 Boost Employment', text: 'Isreali Embassy, Innov8 Boost Employment,  Bolster Nigeria’s Economic Prosperity Through i-FAIR...' },
+
+    { image : fuel, title : 'EV100 Pledge', text : 'More than 110 companies have signed up to the EV100 pledge, committing to fully zero-emission vehicle fleets by 2030...'},
+
+    { image : global, title : 'Global Market', text : 'Vehicle manufacturers representing more than 30% of the global market now have commitments to phase out fossil-fueled...'},
+
+    { image : fuel, title : 'COP26 Declaration', text : 'The COP26 Declaration on Accelerating the Transition to 100% Zero-Emission Cars and Vans brought together over 35 countries, 6...'},
+
     { image : Innov, title : 'Innov8 Boost Employment', text: 'Isreali Embassy, Innov8 Boost Employment,  Bolster Nigeria’s Economic Prosperity Through i-FAIR...' },
 
     { image : fuel, title : 'EV100 Pledge', text : 'More than 110 companies have signed up to the EV100 pledge, committing to fully zero-emission vehicle fleets by 2030...'},
@@ -353,3 +372,26 @@ export const TeamSocials = [
     media : twitter
   }
 ]
+
+export const CategoryData = [
+  {
+    id: 1,
+    img: Enquiry,
+    title: "General Enquiry",
+    isCategorised : true,
+  },
+
+  {
+    id: 2,
+    img: Glyph,
+    title: "Buy Conversion Kit",
+    isCategorised : false,
+  },
+
+  {
+    id: 3,
+    img: Car,
+    title: "Buy Vehicles",
+    isCategorised : false,
+  },
+];

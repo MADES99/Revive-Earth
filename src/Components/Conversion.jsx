@@ -31,9 +31,11 @@ const Conversion = () => {
                 <img src={Kit1} alt="Conversion Kit" className='hidden lg:flex'/>
                 <img src={kekeCon} alt="keke Conversion" className='lg:hidden w-full' />
             </div>
-            <div className='flex lg:flex-col flex-row gap-[20px]'>
-              <img src={solarMobile} alt="solar Mobile" className='lg:hidden'/>
-              <img src={kekeConMobile} alt="keke con mobile" className='lg:hidden'/>
+            <div className='grid grid-cols-2 lg:flex lg:flex-col flex-row gap-3 lg:gap-[20px]'>
+              {/* Mobile images */}
+              <img src={solarMobile} alt="solar Mobile" className='lg:hidden '/>
+              <img src={kekeConMobile} alt="keke con mobile" className='lg:hidden w-full max-w-full'/>
+              {/* Desktop images */}
                 <img src={Kit2} alt="Conversion Kit" className='hidden lg:flex'/>
                 <img src={Kit3} alt="Conversion Kit" className='hidden lg:flex'/>
             </div>

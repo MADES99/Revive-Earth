@@ -23,6 +23,13 @@ a.active {
     color: #83BC25;
 }
 
+.landing {
+    background-image: url('./assets/Group4.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .conversion {
     background-image: url('./assets/Order.png');
     background-position: center;
