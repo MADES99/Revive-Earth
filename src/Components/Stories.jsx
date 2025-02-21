@@ -2,11 +2,44 @@ import React, { useState } from 'react'
 import StorieList from './StorieList'
 import PrevNext from './PrevNext'
 import { StoriesKits } from "../constants/Index"
+import Read from "./Read";
+import Play from "./Play";
 
 
 
 
 const Stories = () => {
+  const [curr, setCurr] = useState(0)
+
+  const slides = StoriesKits.map((item, i) => {
+                                return (
+                                  <div className="flex flex-col justify-center items-start gap-[20px] md:flex-[1]  w-[328px]">
+                                    <div className="relative w-full">
+                                      <img src={item.image} alt="Innovate" className="w-full" />
+                                      <Play />
+                                    </div>
+                                    <div className="flex flex-col gap-[20px]">
+                                      <h1 className="font-[ClashDisplay-Variable] text-[18px] font-medium">
+                                        {item.title}
+                                      </h1>
+                                      <p className="font-[inter] text-[14px] font-light">{item.text}</p>
+                                    </div>
+                                    <Read />
+                                  </div>
+                                );
+                              });
+
+    const next = () => {
+     return  setCurr(curr => {
+      return curr === StoriesKits.length - 1 ? 0 :  curr + 1
+     })
+    }
+
+    const prev = () => {
+      return  setCurr(curr => {
+       return curr === 0 ? StoriesKits.length - 1  :  curr - 1
+      })
+     }
 
 
   return (
@@ -15,13 +48,14 @@ const Stories = () => {
             <div className='flex lg:gap-[882px]'>
                 <h1 className='font-[ClashDisplay-Variable] text-white text-5xl'>Our Stories</h1>
                 <div className='hidden lg:flex'>
-                 <PrevNext  />
+                 <PrevNext  next={next} prev={prev} />
                 </div>
             </div>
 
-            <StorieList />
+            <StorieList  slides={slides} curr={curr}/>
+
             <div className='flex  lg:hidden'>
-                 <PrevNext />
+                 <PrevNext next={next} prev={prev}/>
             </div>
             
         </div>
