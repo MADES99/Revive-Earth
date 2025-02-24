@@ -15,9 +15,9 @@ const Conversion = () => {
           <div className='flex flex-col gap-[17px] text-center lg:mt-[117px] lg:mb-[111px]'>
               <h2 className='lg:hidden font-[ClashDisplay-Variable] text-[20px] text-center font-medium leading-[20px] text-[#83BC25]'>Revive Earth's Eco-Friendly Fleet</h2>
 
-            <h1 className="hidden lg:flex font-[ClashDisplay-Variable] text-[64px] lg:text-8xl text-white leading-[64px] lg:leading-24 font-medium">CONVERSION KITS</h1>
+            <h1 className="hidden md:flex font-[ClashDisplay-Variable] text-[64px] md:text-8xl text-white leading-[64px] md:leading-24 font-medium">CONVERSION KITS</h1>
 
-            <h1 className="lg:hidden font-[ClashDisplay-Variable] text-[64px] lg:text-8xl text-white leading-[64px] lg:leading-24 font-medium">CONVERS-ION KITS</h1>
+            <h1 className="md:hidden font-[ClashDisplay-Variable] text-[64px] lg:text-8xl text-white leading-[64px] md:leading-24 font-medium">CONVERS-ION KITS</h1>
 
             <p className='hidden lg:flex font-[inter] text-[18px] leading-[28px] font-light text-[#F3F8E9] lg:w-[800px]'>Revive Earth's Electrifying Innovation: Elevate Any Ride into the Future with Our Universal Conversion Kits!</p>
 

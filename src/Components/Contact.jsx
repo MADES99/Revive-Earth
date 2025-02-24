@@ -15,7 +15,7 @@ const Contact = () => {
                 </div>
 
                 <div className=''>
-                    <img src={contactkeke} alt="Contact Keke" className=''/>
+                    <img src={contactkeke} alt="Contact Keke" className='h-full'/>
                 </div>
             </div>
     </div>

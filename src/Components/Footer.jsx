@@ -7,10 +7,10 @@ import Subscribe from './Subscribe'
 const Footer = () => {
   return (
     <div className='m-0 bg-[#2E420D] pb-[25px] pt-[65px] px-[23px]  flex justify-center  flex-col lg:pt-[70px] lg:px-[90px] lg:pb-[33px]'>
-            <div className='flex relative mb-[84px] gap-[40px] lg:flex-row flex-col'>
+            <div className='flex mb-[84px] gap-[40px] lg:flex-row flex-col'>
                <FooterLogo />
                 <FooterLinks />
-                <div className='flex flex-col gap-[40px] lg:gap-[48px] items-start  lg:items-end'>
+                <div className='flex flex-col gap-[40px] lg:gap-[48px] items-start  lg:items-end  '>
                     <Subscribe />
                     <SocialSection />
                 </div>

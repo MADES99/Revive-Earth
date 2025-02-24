@@ -4,7 +4,7 @@ import { ElectricFeatures } from '../constants/Index'
 
 const ElectricList = () => {
   return (
-            <div className='flex lg:flex-row flex-col  lg:gap-[92px] gap-[40px]'>
+            <div className='flex md:flex-row flex-col  md:gap-[92px] gap-[40px]'>
             {
                 ElectricFeatures.map((item, i) => {
                     return       <div className='flex flex-col gap-[16px] lg:w-[293px] items-start w-full'>

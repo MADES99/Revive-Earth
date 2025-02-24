@@ -4,7 +4,7 @@ import Lightning from './Lightning'
 
 const KitsListLanding = () => {
   return (
-        <div className='flex lg:flex-row flex-col justify-center lg:items-center items-start lg:gap-[92px] gap-[35px]  w-full'>
+        <div className='flex md:flex-row flex-col justify-center lg:items-center items-start lg:gap-[92px] gap-[35px]  w-full'>
             {
                 KitsFeatures.map((item, i) => {
                     return       <div className='flex flex-col gap-[16px] w-full items-start lg:w-[293px]'>
